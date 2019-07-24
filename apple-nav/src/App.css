@@ -40,14 +40,18 @@
 .Nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 100%;
 }
 
-.nav-link {
-  margin: 40px 0
-}
-
 .sub-nav {
+  display: flex;
+  justify-content: space-around;
   height: 150px;
   background-color: lightgrey;
+  align-items: center;
+}
+
+.subnav-link {
+  margin: 20px 0;
 }

@@ -1,10 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SubNav = (props) => {
   console.log(props);
   return (
     <div className="sub-nav">
-      Sub Nav
+      {props.subLinks.map((subLink, index) =>
+        <Link
+          className="subnav-link"
+          key={index}
+          to=''>
+            {subLink.name}
+        </Link>
+      )}
     </div>
   );
 };
