@@ -15,7 +15,7 @@ function App() {
         exact
         path="/"
         render={() =>
-          <SubNav />
+          <SubNav subLinks={Data[0].subLinks} />
         } />
 
       {Data.map((routeLink, index) =>
