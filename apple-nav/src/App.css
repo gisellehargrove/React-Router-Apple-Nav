@@ -53,5 +53,9 @@
 }
 
 .subnav-link {
-  margin: 20px 0;
+  width: 25px;
+}
+
+img[src*="https://www.apple.com/v/ipad/home/ak/images/chapternav/apple_pencil_light__bz8n8cqdvcia_large.svg"] {
+  width: 5px;
 }

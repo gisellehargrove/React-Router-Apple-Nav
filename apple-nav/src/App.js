@@ -15,15 +15,16 @@ function App() {
         exact
         path="/"
         render={() =>
-          <SubNav subLinks={Data[0].subLinks} />
+          <SubNav name={Data[0].name} subLinks={Data[0].subLinks} />
         } />
 
       {Data.map((routeLink, index) =>
         <Route
           key={index}
+          name={routeLink.name}
           path={`/${routeLink.name}`}
           render={() =>
-            <SubNav subLinks={routeLink.subLinks} />
+            <SubNav name={routeLink.name} subLinks={routeLink.subLinks} />
           } />
       )}
     </div>
