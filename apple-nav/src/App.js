@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav/Nav';
 import Data from './data.js';
 import { Route } from 'react-router-dom';
+import SubNav from './components/SubNav/SubNav.js';
 
 function App() {
   return (
@@ -10,10 +11,20 @@ function App() {
       <div className="nav-container">
         <Nav />
       </div>
-      <Route exact path="/" />
+      <Route
+        exact
+        path="/"
+        render={() =>
+          <SubNav />
+        } />
 
       {Data.map((routeLink, index) =>
-        <Route key={index} path={`/${routeLink}`} component={SubNav} />
+        <Route
+          key={index}
+          path={`/${routeLink.name}`}
+          render={() =>
+            <SubNav />
+          } />
       )}
     </div>
   );
