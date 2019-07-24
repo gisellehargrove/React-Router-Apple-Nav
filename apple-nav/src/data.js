@@ -155,42 +155,42 @@ const Data = [
             {
                 name: "Apple Watch Series 4",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_series_2_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_series_2__bk595ih4bliu_large.svg"
             },
             {
                 name: "Apple Watch Nike+",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_nike_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_nike__mkjgkrrlq2ye_large.svg"
             },
             {
                 name: "Apple Watch Hermès",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_hermes_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_hermes__b1zeoxbn0df6_large.svg"
             },
             {
                 name: "Apple Watch Series 3",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_edition_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_edition__botzv6l1ftua_large.svg"
             },
             {
                 name: "watchOS",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_watch_os_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_watch_os__fctkp231ik6e_large.svg"
             },
             {
                 name: "Bands",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_bands_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_bands__f5qi8icu6suq_large.svg"
             },
             {
                 name: "Accessories",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_accessories_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_accessories__fix8lwwxvtu2_large.svg"
             },
             {
                 name: "Compare",
                 img:
-                    "https://www.apple.com/v/watch/home/i/images/watch_nav_compare_large.svg"
+                    "https://www.apple.com/v/watch/home/q/images/overview/watch_nav_compare__bjddtmfseahe_large.svg"
             }
         ]
     },
