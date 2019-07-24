@@ -23,7 +23,7 @@ function App() {
           key={index}
           path={`/${routeLink.name}`}
           render={() =>
-            <SubNav />
+            <SubNav subLinks={routeLink.subLinks} />
           } />
       )}
     </div>
