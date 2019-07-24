@@ -1,4 +1,4 @@
-export default [
+const Data = [
     {
         name: "Mac",
         subLinks: [
@@ -265,3 +265,5 @@ export default [
         ]
     }
 ];
+
+export default Data;
