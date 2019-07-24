@@ -13,7 +13,7 @@ function App() {
       <Route exact path="/" />
 
       {Data.map((routeLink, index) =>
-        <Route key={index} path={`/${routeLink}`}/>
+        <Route key={index} path={`/${routeLink}`} component={SubNav} />
       )}
     </div>
   );
